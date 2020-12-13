@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+    font-family: 'Open Sans',sans-serif;
+}
+header{
+    position: relative;
+    width: 100%;
+    height: 600px;
+    background: #FF0099;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, hsla(323, 19%, 24%, 0.979), #d10057e5),url('https://iili.io/KImf07.jpg');  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, hsla(323, 19%, 24%, 0.979), #d10057e5),url('https://iili.io/KImf07.jpg'); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background-size: cover;
+    background-position: center;
+    
+
+}
+nav{
+    width: 100%;
+    padding: 30px 50px 0 0;
+    text-align: right;
+    
+}
+nav > a{
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: white;
+    text-decoration: none;
+    margin-right: 10px;
+}
+nav > a:hover{
+    text-decoration: underline;
+}
+.wave{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    
+}
+.textos-header{
+    width: 100%;
+    height: 360px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.textos-header h1{
+    font-size: 4rem;
+    color: white;
+}
+.textos-header h2{
+    font-size: 3rem;
+    color: white;
+    margin-top: 10px;
+    font-weight: 300;
+}
